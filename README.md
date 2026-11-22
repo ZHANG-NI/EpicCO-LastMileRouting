@@ -1,6 +1,6 @@
-# AlphaCO: Last-Mile Routing
+# EpicCO: Last-Mile Routing
 
-The solver that [AlphaCO](https://github.com/ZHANG-NI/AlphaCO) produced for the Amazon Last Mile Routing Research Challenge, starting from the first-ranked approach of the challenge (W. Cook, S. Held, and K. Helsgaun, Transportation Science, 2024; https://github.com/heldstephan/jpt-amz).
+The solver that [EpicCO](https://github.com/ZHANG-NI/EpicCO) produced for the Amazon Last Mile Routing Research Challenge, starting from the first-ranked approach of the challenge (W. Cook, S. Held, and K. Helsgaun, Transportation Science, 2024; https://github.com/heldstephan/jpt-amz).
 
 ## Run
 
