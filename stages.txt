@@ -1,0 +1,6 @@
+# One line per instance variant:  name | flags of scripts/build_TSPLIB.py | share of the time | merge factor
+# Every route is solved once per variant (all routes of the first line, then all of the second, ...); a
+# variant's time limit per route is its share of the time left for solving. The sequence of a route comes from
+# the variant with the smallest floor(factor x tour length); ties go to the earlier line.
+V1 | -symMin -consensus -noPrune -noPruneFailed -zoneNeighborTrans -superNeighborTrans -transCost -projTrans -codePrior -fixedMass -endPrior | 0.6667 | 1.00
+V2 | -symMin -consensus -noPrune -noPruneFailed -zoneNeighborTrans -superNeighborTrans -superPred -trans -transCost -projTrans -codePrior -fixedMass -endPrior | 0.3333 | 1.01

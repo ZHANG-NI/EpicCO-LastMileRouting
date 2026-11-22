@@ -1,0 +1,4 @@
+# Parameter lines given to the solver for every route. PROBLEM_FILE, SEED, TIME_LIMIT and TOUR_FILE are set by
+# the launcher and may not appear here.
+CTSP_TRANSFORM = YES
+TRACE_LEVEL = 0
